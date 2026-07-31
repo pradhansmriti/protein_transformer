@@ -1,0 +1,37 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data & model artifacts
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs & figures
+*.log
+figures/
