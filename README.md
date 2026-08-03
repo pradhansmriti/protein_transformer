@@ -5,7 +5,7 @@ protein (amino-acid) sequences, built in phases.
 
 ## Status
 
-- **Phase 1 — Data pipeline & tokenization** (in progress)
+- **Phase 1 — Data pipeline & tokenization** ✅
   - `config.py` — all hyperparameters
   - `tokenizer.py` — amino-acid tokenization
   - `data_pipeline.py` — generate toy sequences
@@ -30,7 +30,12 @@ utils.py             # helpers
 
 ## Setup
 
+Project-local conda environment (git-ignored):
+
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install torch numpy matplotlib
+conda create -p ./.conda-env python=3.12 -y
+./.conda-env/bin/pip install torch numpy matplotlib
 ```
+
+Run anything with `./.conda-env/bin/python <script>.py`, or activate it with
+`conda activate ./.conda-env`.

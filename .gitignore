@@ -10,6 +10,7 @@ dist/
 .eggs/
 
 # Environments
+.conda-env/
 .venv/
 venv/
 env/
